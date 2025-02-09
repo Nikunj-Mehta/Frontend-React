@@ -116,3 +116,9 @@ ul.ingredients-list > li {
 .suggested-recipe-container ul li, .suggested-recipe-container ol li {
     margin-bottom: 8px;
 }
+
+.add-items {
+    text-align: center;
+    margin-top: 50px;
+    color: #6B7280;
+}
