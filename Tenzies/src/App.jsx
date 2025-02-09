@@ -60,7 +60,11 @@ export default function App() {
 
     return (
         <main>
-            {gameWon && <Confetti width={width} height={height} />}
+            {gameWon && <Confetti 
+                            recycle={false}
+                            numberOfPieces={2000}
+                            width={width} 
+                            height={height} />}
             <div aria-live="polite" className="sr-only">
                 {gameWon && <p>Congratulations! You won! Press "New Game" to start again.</p>}
             </div>
